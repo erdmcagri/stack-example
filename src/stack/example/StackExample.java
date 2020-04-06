@@ -23,10 +23,14 @@ public class StackExample {
         s.push(p);
 
         Stack s1 = new Stack();
-        s1.push(p1);
+        s1.push("Ayşe");
+        s1.push("yeşil");
+        s1.push(25);
 
         Stack s2 = new Stack();
-        s2.push(p2);
+        s2.push("string");
+        s2.push(12);
+        s2.push(true);
 
         Stack[] stackArray = new Stack[3];
         stackArray[0] = s;
